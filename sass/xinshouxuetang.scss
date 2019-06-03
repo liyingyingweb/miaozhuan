@@ -1,0 +1,112 @@
+$margin: 0;
+$padding: 0;
+$width: 100%;
+$height: 100%;
+body,html,p,span,a,ul,li{
+    margin: $margin;
+    padding: $padding;
+    text-decoration: none;
+    list-style: none;
+}
+.wrap{
+	width: $width;
+	.header{
+		width: 100%;
+		height: 1.5625rem;
+		line-height: 1.5625rem;
+		background: #27264f;
+		text-align: center;
+		position: fixed;
+		top: 0;
+		left: 0;
+		z-index: 1;
+		a{
+			span{
+				width: 0.53125rem;
+				height: 0.046875rem;
+				background: white;
+				border-top: 0.046875rem solid white;
+				border-bottom: 0.046875rem solid white;
+				padding: 0.109375rem 0;
+				background-clip: content-box;
+				position: absolute;
+				top: 0.625rem;
+				left: 0.421875rem;
+				display: inline-block;
+			}
+		}
+		p{
+			color: white;
+			text-align: center;
+			font-size: 0.46875rem;
+		}
+	}
+	.main{
+		background: #e1e5ee;
+		padding: 0.234375rem;
+		margin-top: 1.5625rem;
+		box-sizing: border-box;
+		.main_inner{
+			background: white;
+			margin: 0 auto;
+			padding: 0.3125rem 0.390625rem 1.5rem 0.33rem;
+			box-sizing: border-box;
+			.main_top{
+				a:nth-child(1){
+					width: 0.390625rem;
+					height: 0.390625rem;
+					text-align: center;
+					line-height: 0.3rem;
+					background: #55678d;
+					color: white;
+					font-size: 0.45rem;
+					display: inline-block;
+				}
+				a:nth-child(2){
+					color: #6e6e6e;
+					font-size: 0.28125rem;
+					display: inline-block;
+				}
+				p{
+					color: #333333;
+					line-height: 0.546875rem;
+					font-size: 0.28125rem;
+				}
+				img{
+					width: 8.96875rem;
+					height: 4.75rem;
+					margin: 0.3125rem auto 0.6rem auto;
+				}
+			}
+			.main_bottom{
+				ul li{
+					width: 100%;
+					line-height: 1rem;
+					border-top: 0.015625rem solid #cdcdcd;
+					a{
+						font-size: 0.28125rem;
+						margin: 0 auto;
+						color: #333333;
+					}
+					a:nth-child(1){
+						width: 0.390625rem;
+						height: 0.37rem;
+						text-align: center;
+						line-height: 0.3rem;
+						background: #55678d;
+						color: white;
+						font-size: 0.390625rem;
+						display: inline-block;
+						margin-left: 0.234375rem;
+						box-sizing: border-box;
+					}
+					a:nth-child(2){
+						padding-left: 0.46875rem;
+						box-sizing: border-box;
+						font-weight: bold;
+					}
+				}
+			}
+		}
+	}
+}

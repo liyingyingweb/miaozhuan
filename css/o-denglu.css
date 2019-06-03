@@ -1,0 +1,95 @@
+@charset "UTF-8";
+@font-face {
+  font-family: fa;
+  src: url("FZXSHJW.TTF"); }
+html {
+  height: 100%; }
+
+body {
+  height: 100%;
+  overflow: hidden; }
+
+* {
+  box-sizing: border-box; }
+
+body,
+ul,
+div,
+img,
+p,
+a,
+h3,
+h4,
+span {
+  padding: 0;
+  margin: 0;
+  text-decoration: none; }
+
+.gerenye {
+  display: block;
+  width: 100vw;
+  min-height: 100%;
+  background: url(../images/o-background.png) no-repeat;
+  background-size: 100% 100%;
+  border-top: 0.01125rem solid #222048; }
+  .gerenye .img1 {
+    display: block;
+    width: 1.890625rem;
+    height: 0.921875rem;
+    margin: 0 auto;
+    margin-top: 1.296875rem; }
+  .gerenye > p {
+    width: 9.15625rem;
+    height: 1.15625rem;
+    margin: 0 auto;
+    border: 0.046875rem dotted white;
+    border-radius: 0.8rem;
+    margin-top: 0.859375rem;
+    font-size: 15px;
+    text-align: center;
+    line-height: 1.15625rem;
+    color: white; }
+    .gerenye > p span {
+      font-size: 18px;
+      color: #f5e10a; }
+  .gerenye .xinxi {
+    height: 7.03125rem;
+    padding: 0 0.484375rem 0 0.484375rem;
+    margin-top: 1.015625rem; }
+    .gerenye .xinxi .iphone input {
+      width: 100%;
+      height: 1rem;
+      border: 0.015625rem solid white;
+      background: rgba(0, 0, 0, 0);
+      color: white;
+      padding: 0.234375rem 0.390625rem 0.234375rem 0.390625rem;
+      margin-bottom: 0.46875rem; }
+    .gerenye .xinxi .iphone input::-webkit-input-placeholder {
+      /* placeholder颜色  */
+      color: white; }
+    .gerenye .xinxi > a {
+      display: block;
+      height: 1.09375rem;
+      border-radius: 0.5rem;
+      background: #1bbda5;
+      margin-top: 0.6rem;
+      font-size: 15px;
+      color: white;
+      text-align: center;
+      line-height: 1.09375rem; }
+    .gerenye .xinxi .quick-nav {
+      height: 0.78125rem;
+      overflow: hidden;
+      margin-top: 0.78125rem; }
+      .gerenye .xinxi .quick-nav .sms_quick {
+        display: block;
+        float: left;
+        font-size: 15px;
+        color: #fff;
+        text-decoration: underline; }
+      .gerenye .xinxi .quick-nav .display {
+        display: block;
+        float: right;
+        color: #fff;
+        font-size: 15px;
+        text-decoration: underline; }

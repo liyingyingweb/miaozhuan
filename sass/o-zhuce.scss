@@ -1,0 +1,127 @@
+@font-face {
+	font-family: fa;
+	src: url('FZXSHJW.TTF');
+}
+html {
+	height: 100%;
+}
+body {
+	height: 100%;
+	overflow: hidden;
+}
+* {
+	box-sizing: border-box;
+}
+body,
+ul,
+div,
+img,
+p,
+a,
+h3,
+h4,
+span {
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+}
+
+.gerenye {
+	display: block;
+	width: 100vw;
+	min-height: 100%;
+	background: url(../images/o-background.png) no-repeat;
+	background-size: 100% 100%;
+	border-top: 0.01125rem solid #222048;
+
+	.img1 {
+		display: block;
+		width: 1.890625rem;
+		height: 0.921875rem;
+		margin: 0 auto;
+		margin-top: 1.296875rem;
+	}
+	> p {
+		width: 9.15625rem;
+		height: 1.15625rem;
+		margin: 0 auto;
+		border: 0.046875rem dotted white;
+		border-radius: 0.8rem;
+
+		margin-top: 0.859375rem;
+
+		font-size: 15px;
+		text-align: center;
+		line-height: 1.15625rem;
+		color: white;
+
+		span {
+			font-size: 18px;
+			color: #f5e10a;
+		}
+	}
+
+	.xinxi {
+		height: 7.03125rem;
+		padding: 0 0.484375rem 0 0.484375rem;
+		margin-top: 1.015625rem;
+
+		.iphone {
+			input {
+				width: 100%;
+				height: 1rem;
+				border: 0.015625rem solid white;
+				background: rgba(0, 0, 0, 0);
+				color: white;
+				padding: 0.234375rem 0.390625rem 0.234375rem 0.390625rem;
+				margin-bottom: 0.46875rem;
+				// ::-webkit-input-placeholder{
+				// 	color: #f5e10a;
+				// }
+			}
+			input::-webkit-input-placeholder {
+				/* placeholder颜色  */
+				color: white;
+			}
+		}
+		.yanzhengma {
+			.yanzm {
+				width: 59.7%;
+				height: 1rem;
+
+				border: 0.015625rem solid white;
+				background: rgba(0, 0, 0, 0);
+				color: white;
+				padding: 0.234375rem 0.390625rem 0.234375rem 0.390625rem;
+			}
+
+			.zaiyzm {
+				width: 36.8%;
+				height: 1rem;
+				margin-left: 1.05%;
+
+				border: 0.015625rem solid white;
+				background: rgba(0, 0, 0, 0);
+				color: white;
+				border-radius: 0.5rem;
+			}
+			input::-webkit-input-placeholder {
+				/* placeholder颜色  */
+				color: white;
+			}
+		}
+		a {
+			display: block;
+
+			height: 1.09375rem;
+			border-radius: 0.5rem;
+			background: #1bbda5;
+			margin-top: 1.328125rem;
+
+			font-size: 15px;
+			color: white;
+			text-align: center;
+			line-height: 1.09375rem;
+		}
+	}
+}

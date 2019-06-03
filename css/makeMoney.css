@@ -1,0 +1,130 @@
+body, html, p, span, a, ul, li {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none; }
+
+@media screen and (min-width: 375px) {
+  .main .main_inner {
+    padding: 0.3125rem 0.390625rem 4.6rem 0.33rem;
+    box-sizing: border-box; } }
+.wrap {
+  width: 100%; }
+  .wrap .header {
+    width: 100%;
+    height: 1.5625rem;
+    line-height: 1.5625rem;
+    background: #27264f;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1; }
+    .wrap .header a span {
+      width: 0.53125rem;
+      height: 0.046875rem;
+      background: white;
+      border-top: 0.046875rem solid white;
+      border-bottom: 0.046875rem solid white;
+      padding: 0.109375rem 0;
+      background-clip: content-box;
+      position: absolute;
+      top: 0.625rem;
+      left: 0.421875rem;
+      display: inline-block; }
+    .wrap .header img {
+      width: 0.734375rem;
+      height: 0.71875rem;
+      position: absolute;
+      top: 0.42rem;
+      right: 0.3125rem; }
+    .wrap .header p {
+      color: white;
+      text-align: center;
+      font-size: 0.46875rem; }
+  .wrap .main {
+    background: #e1e5ee;
+    padding: 0.234375rem;
+    margin-top: 1.5625rem;
+    box-sizing: border-box; }
+    .wrap .main .main_inner {
+      background: white;
+      margin: 0 auto;
+      padding: 0.3125rem 0.390625rem 1.5rem 0.33rem;
+      box-sizing: border-box; }
+      .wrap .main .main_inner .logo {
+        overflow: hidden;
+        margin-top: 0.234375rem;
+        box-sizing: border-box; }
+        .wrap .main .main_inner .logo a:nth-child(1) {
+          float: left;
+          color: #505052;
+          font-size: 0.34375rem;
+          margin-top: 0.15625rem;
+          box-sizing: border-box; }
+        .wrap .main .main_inner .logo a:nth-child(2) {
+          float: right;
+          width: 2.1875rem;
+          height: 0.625rem;
+          text-align: center;
+          line-height: 0.625rem;
+          background: white;
+          color: #505052;
+          border: 0.015625rem solid #e2e2e2;
+          border-radius: 0.3125rem;
+          display: inline-block;
+          font-size: 0.3125rem; }
+          .wrap .main .main_inner .logo a:nth-child(2) img {
+            width: 0.21875rem;
+            height: 0.3125rem;
+            vertical-align: middle; }
+      .wrap .main .main_inner .nav {
+        width: 100%;
+        height: 0.59375rem;
+        margin: 0.3125rem auto;
+        box-sizing: border-box; }
+        .wrap .main .main_inner .nav ul {
+          overflow: hidden;
+          display: flex;
+          border-top: 0.03125rem solid #5f5f5f;
+          box-sizing: border-box; }
+          .wrap .main .main_inner .nav ul li {
+            flex: 1;
+            width: 20%;
+            text-align: center;
+            border: 0.015625rem solid #dddddd;
+            box-sizing: border-box;
+            background: #f0eeef; }
+            .wrap .main .main_inner .nav ul li a {
+              color: #333333;
+              line-height: 0.59375rem;
+              font-size: 0.21875rem;
+              display: block; }
+          .wrap .main .main_inner .nav ul li:nth-child(2) {
+            border: white;
+            background: white; }
+      .wrap .main .main_inner .container {
+        width: 100%;
+        margin: 0 auto;
+        font-size: 0.203125rem; }
+        .wrap .main .main_inner .container ul {
+          overflow: hidden; }
+          .wrap .main .main_inner .container ul li {
+            padding: 0.15625rem 0 2.34375rem 0;
+            border-bottom: 0.015625rem solid #dbdcde; }
+            .wrap .main .main_inner .container ul li img {
+              float: left;
+              width: 2.15625rem;
+              height: 2.1875rem; }
+            .wrap .main .main_inner .container ul li p {
+              float: right;
+              width: 6.25rem;
+              margin-top: 0.15625rem; }
+            .wrap .main .main_inner .container ul li p:nth-child(2) {
+              color: #333333;
+              font-size: 0.203125rem; }
+            .wrap .main .main_inner .container ul li p:nth-child(3) {
+              color: #8c8c8c;
+              font-size: 0.1875rem; }
+          .wrap .main .main_inner .container ul li:last-child {
+            border: none; }

@@ -1,0 +1,137 @@
+@font-face {
+	font-family: fa;
+	src: url('FZXSHJW.TTF');
+}
+
+* {
+	box-sizing: border-box;
+}
+body,
+ul,
+div,
+img,
+p,
+a,
+h3,
+h4,
+span {
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+}
+header {
+	width: 100%;
+	height: 1.5625rem;
+	background: #272750;
+
+	.three-icon {
+		display: block;
+		width: 0.53125rem;
+		height: 0.34375rem;
+		background-color: white;
+
+		border-top: 0.03125rem solid white;
+		border-bottom: 0.03125rem solid white;
+		padding: 0.125rem 0;
+		background-clip: content-box;
+
+		position: absolute;
+		left: 0.453125rem;
+		top: 0.5625rem;
+	}
+	h3 {
+		text-align: center;
+		line-height: 1.5625rem;
+		font-size: 15px;
+		color: white;
+		font-weight: 300;
+	}
+}
+// banner
+.banner {
+	display: block;
+	width: 100vw;
+	min-height: 7.296875rem;
+	background: url(../images/o-dabanner.png) no-repeat;
+	background-size: 100% 100%;
+	border-top: 0.03125rem solid white;
+
+	.img1 {
+		display: block;
+		width: 1.890625rem;
+		height: 0.921875rem;
+		margin: 0 auto;
+		margin-top: 1.296875rem;
+	}
+	.img2 {
+		display: block;
+		width: 6.8125rem;
+		height: 1.21875rem;
+		margin: 0 auto;
+		margin-top: 1.03125rem;
+	}
+	a {
+		display: block;
+		width: 3.671875rem;
+		height: 0.96875rem;
+		margin: 0 auto;
+		border: 0.015625rem solid #fff;
+		border-radius: 0.3rem;
+
+		text-align: center;
+		line-height: 0.96875rem;
+		font-size: 18px;
+		color: #fff;
+
+		margin-top: 0.65625rem;
+	}
+}
+
+.erweima {
+	width: 6.4375rem;
+	height: 7.078125rem;
+	// padding: 0 1.890625rem 0 1.890625rem;
+	margin: 0.125rem auto 0;
+	border-bottom: 1px solid #fff;
+	
+	img {
+		width: 6.4375rem;
+		height: 6.4375rem;
+	}
+	p {
+		font-size: 15px;
+		color: black;
+		line-height: 0.8125rem;
+		text-align: center;
+	}
+}
+// footer
+footer{
+	height: 0.625rem;
+	
+	.yinshen{
+		width: 8.8125rem;
+		height: 0.625rem;
+		margin: 0.625rem auto 0;
+		border-top: 0.015625rem solid #000;
+		
+		position: relative;
+	}
+			a{
+			display: block;
+			width: 3.6875rem;
+			height: 0.46875rem;
+			background: white;
+			
+			font-size: 15px;
+			color: black;
+			text-align: center;
+			line-height:0.46875rem;
+			
+			position: absolute;
+			top: -0.21875rem;
+			left: 50%;
+			margin-left: -1.84375rem;
+		}
+	
+}
